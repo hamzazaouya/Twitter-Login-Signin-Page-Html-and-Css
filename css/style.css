@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #15202b
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh;
+    overflow: hidden;
+}
+
+.info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url(../img/twitter-brand-svg.svg) no-repeat top right / cover;
+    height: 100%;
+    width: 100%;
+    background-color: #71c9f8;
+}
+
+.info .content{
+    height: 30%;
+    display: grid;
+    align-content: space-between;
+}
+
+.info .content p {
+    color: #FFF;
+    font-size: 1.3rem;
+    line-height: 1.7
+}
+
+.info .content p i {
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+
+.logsign {
+    height: 90vh;
+    width: 100%;
+}
+
+.logsign form {
+    margin-top: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logsign .input {
+    width:8remrem;
+    margin-right:  1rem;
+    background-color: #192734;
+    border-bottom: 2px solid #8899a6;
+    padding: 5px;
+}
+
+.logsign .input p {
+    color: #8899a6;
+    font-size: .9rem;
+}
+
+.logsign .input input {
+    height: 1.5rem;
+    background: none;
+    color: #1da1f2;
+    border: none;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.logsign form button {
+    background: 0;
+    border: 1px solid  #1da1f2;
+    padding: .5rem 1rem;
+    border-radius: 3rem;
+    color:  #1da1f2;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.logsign form button:hover {
+    background-color: #162d40;
+}
+
+.logsign .login > a {
+    color: #1da1f2;
+    text-align: center;
+    font-size: .8rem;
+    margin: auto;
+    margin-top: .5rem;
+    display: block;
+    text-decoration: none;
+}
+
+.logsign .login > a:hover {
+    text-decoration: underline;
+}
+
+.welcoming {
+    color: #FFF;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcoming .content i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.welcoming .content p {
+    font-size: 2rem;
+}
+
+.welcoming .content p:last-of-type {
+    margin-bottom: 4rem;
+}
+
+
+.welcoming .content span {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.welcoming .content a {
+    display: block;
+    padding: .6rem 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5rem;
+    margin-bottom: .7rem;
+    text-decoration: none
+}
+
+.welcoming .content a:first-of-type {
+    background-color: #1da1f2;
+    color: #FFF;
+}
+
+.welcoming .content a:last-of-type {
+    border:1px solid #1da1f2;
+    color:#1da1f2;
+}
+
+footer {
+    height: 10vh;
+    padding: 0 2rem;
+}
+
+footer .content {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+footer .content a {
+    margin-right: 1rem;
+    color: #8899a6;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .8rem;
+}
+
+footer .content a:hover {
+    text-decoration: underline;
+}
+
+footer .content p {
+    color: #8899a6;
+    font-size: .8rem;
+}
